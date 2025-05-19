@@ -22,7 +22,7 @@ messaging.onBackgroundMessage(function(payload) {
    console.log(payload.notification.title);
   const notificationOptions = {
     body: payload.notification.body,
-    icon: 'https://platform.medoria.ru/icons/Icon-192.png',
+    icon: 'https://24telemedpoint.ru/icons/Icon-192.png',
   };
 
   self.registration.showNotification(notificationTitle, notificationOptions);
